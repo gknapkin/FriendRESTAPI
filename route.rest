@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/friend
+
+###
+
+GET http://localhost:3000/friend/5e278ca29e99a1382dfb4e74
+
+###
+POST http://localhost:3000/friend
+Content-Type: application/json
+
+{
+    "name": "Gary",
+    "location": "Boston"
+}
+###
+DELETE http://localhost:3000/friend/5e278c371d0fb83823018679
+
+###
+PATCH  http://localhost:3000/friend/5e278ca29e99a1382dfb4e74
+Content-Type: application/json
+
+{
+    "name": "Jimmy John",
+    "location": "New Yawk"
+}

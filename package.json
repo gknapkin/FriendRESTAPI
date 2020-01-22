@@ -1,0 +1,19 @@
+{
+  "name": "restapidemo",
+  "version": "1.0.0",
+  "description": "Creating REST API with Node Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gary Knapik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
